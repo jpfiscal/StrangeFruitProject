@@ -29,7 +29,6 @@ function showSuggestions(results) {
 }
 
 function useSuggestion(e) {
-	console.log(e.target.innerText);
 	clearSuggestions();
 	input.value = e.target.innerText;
 }
